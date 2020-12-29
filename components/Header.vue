@@ -46,12 +46,12 @@
             class="block mx-4 mt-2 md:mt-0 text-sm text-gray-600 capitalize hover:text-blue-800 font-semibold"
             >Contact us</a
           >
-          <a
+        </div>
+        <!-- <a
             href="#"
             class="block mx-4 mt-2 md:mt-0 text-sm text-gray-600 capitalize hover:text-blue-800 font-semibold"
             >English</a
-          >
-        </div>
+          > -->
       </div>
     </div>
   </nav>

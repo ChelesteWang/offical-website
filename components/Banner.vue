@@ -25,12 +25,14 @@
           >
             We achieve what you imagine
           </h1>
-          <button
-            class="mt-8 px-5 py-3 bg-blue-600 text-white text-sm uppercase font-medium rounded-xl hover:bg-blue-500 focus:outline-none focus:bg-blue-500"
-            style="padding: 10px 15px margin-top:20px"
+          <a href="#s1">
+            <button
+              class="mt-8 px-5 py-3 bg-blue-600 text-white text-sm uppercase font-medium rounded-xl hover:bg-blue-500 focus:outline-none focus:bg-blue-500"
+              style="padding: 10px 15px margin-top:20px"
+            >
+              Begin to know
+            </button></a
           >
-            Begin to know
-          </button>
         </div>
       </div>
     </div>
