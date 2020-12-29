@@ -9,7 +9,7 @@
         <br style="clear:both">
       </ul> -->
     </nav>
-    <p><span class=""></span>推广勿扰 <span class=""></span>i@qaqrz.xyz</p>
+    <p class="pt-6"><span class=""></span>推广勿扰 <span class=""></span>i@qaqrz.xyz</p>
     <div style="width: 300px; margin: 0 auto; padding: 20px 0">
       <a
         target="_blank"
