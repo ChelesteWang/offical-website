@@ -1,0 +1,46 @@
+<template>
+  <div class="flex justify-center">
+    <div class="">
+      <h1 style="font-size: 48px">Beyond software</h1>
+      <h2 style="font-size: 36px">
+        <p >A team with more than</p><p style="font-size: 40px;color:#1162F9;float:left">10&nbsp</p>
+        <p>years of experience</p>
+        <br style="clear:both">
+      </h2>
+      <h3 style="font-size: 20px">
+        Our Bible is :<br /> &nbsp &nbsp &nbsp &nbsp Comtinuous delivery , committed to customer success
+      </h3>
+      <div style="font-size: 28px;transform: translateY(60px)">
+        <p>We Design Software</p>
+        <p>We planning Software</p>
+        <p>We Develop Software</p>
+        <p>We Operating Software</p>
+      </div>
+      <p style="font-size: 20px;transform: translateY(60px)">We own application which has 100,000 users</p>
+    </div>
+    <div
+      style="transform: translateY(-150px) scale(0.65);"
+      class="hidden -mx-4 md:flex md:items-center"
+    >
+      <iframe
+        src="https://modao.cc/app/0d959208210c78c5545d0e41daaf4114be6a8542/embed"
+        width="515"
+        height="944"
+        allowTransparency="true"
+        frameborder="0"
+      ></iframe>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Info",
+};
+</script>
+
+<style>
+a {
+  transform: translateX(200px);
+}
+</style>

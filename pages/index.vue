@@ -4,7 +4,7 @@
     <Banner></Banner>
     <div class="w-full" style="height: 80px"></div>
     <div id="s1">
-      <GridCard></GridCard>
+      <Info></Info>
       <div class="w-full" style="height: 80px"></div>
     </div>
     <Footer></Footer>
@@ -14,14 +14,14 @@
 <script>
 import Header from "../components/Header";
 import Banner from "../components/Banner";
-import GridCard from "../components/GridCard";
-import Footer from "../components/Footer"
+import Info from "../components/Info";
+import Footer from "../components/Footer";
 export default {
   name: "Index",
   components: {
     Header,
     Banner,
-    GridCard,
+    Info,
   },
 };
 </script>
