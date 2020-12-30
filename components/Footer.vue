@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-400" style="text-align: center">
+  <div class="bg-black" style="text-align: center">
     <nav>
       <!-- <ul style="margin:0 auto">
         <li><a href="index.html" style="float: left;margin-right:40px;">网站首页</a></li>
@@ -28,7 +28,7 @@
             height: 20px;
             line-height: 20px;
             margin: 0px 0px 0px 5px;
-            color: #939393;
+            color: white;
           "
         >
           京公网安备 11010802029190号

@@ -38,9 +38,3 @@ export default {
   name: "Info",
 };
 </script>
-
-<style>
-a {
-  transform: translateX(200px);
-}
-</style>

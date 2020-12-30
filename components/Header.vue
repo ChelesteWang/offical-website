@@ -5,11 +5,7 @@
         <div class="flex justify-between items-center">
           <div class="text-xl font-semibold text-gray-700">
             <!-- logo -->
-            <a
-              href="#"
-              class="text-gray-800 text-xl font-bold hover:text-gray-700 md:text-2xl"
-              >Zsrtech</a
-            >
+            <img src="../assets/images/logo.png" alt="" style="width:200px">
           </div>
 
           <!-- Mobile menu button -->
@@ -32,11 +28,13 @@
         <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
         <div class="hidden -mx-4 md:flex md:items-center">
           <a
+            v-for="item in list"
+            :key="item"
             href="#"
             class="block mx-4 mt-2 md:mt-0 text-sm text-gray-600 capitalize hover:text-blue-800 font-semibold"
-            >about us</a
+            >{{item}}</a
           >
-          <a
+          <!-- <a
             href="#"
             class="block mx-4 mt-2 md:mt-0 text-sm text-gray-600 capitalize hover:text-blue-800 font-semibold"
             >portfolio</a
@@ -45,7 +43,7 @@
             href="#"
             class="block mx-4 mt-2 md:mt-0 text-sm text-gray-600 capitalize hover:text-blue-800 font-semibold"
             >Contact us</a
-          >
+          > -->
         </div>
         <!-- <a
             href="#"
@@ -59,6 +57,11 @@
 
 <script>
 export default {
-    name:'Header'
+    name:'Header',
+    data(){
+      return{
+        list:["about us","portfolio","Contact us"]
+      }
+    }
 };
 </script>
