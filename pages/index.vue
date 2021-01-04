@@ -4,7 +4,7 @@
     <Banner></Banner>
     <div class="w-full" style="height: 80px"></div>
     <div id="s1">
-      <Info/>
+      <!-- <Info/> -->
     </div>
     <Logos />
     <Footer></Footer>

@@ -45,7 +45,7 @@
       </p>
     </div>
     <div
-      style="text-align: center;transform: translateY(-150px) scale(0.65)"
+      style="text-align: center;"
       class="hidden -mx-4 md:flex"
     >
       <iframe
@@ -54,6 +54,7 @@
         height="900"
         allowTransparency="true"
         frameborder="0"
+        style="transform: translateY(-150px) scale(0.65);"
       ></iframe>
     </div>
   </div>
