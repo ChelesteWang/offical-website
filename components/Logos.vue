@@ -1,7 +1,6 @@
 <template>
-  <div class="">
     <div>
-      <h1 style="font-size: 32px; text-align: center">合作公司</h1>
+      <h1 class="title">合作公司</h1>
       <div class="flex justify-center">
         <div class="containner">
           <img
@@ -14,7 +13,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -40,22 +38,37 @@ export default {
 </script>
 
 <style>
+.title {
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0.75rem;
+  font-weight: 400;
+}
 .containner {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 75%;
 }
 .logo {
   /* flex: 20%; */
-  width: 150px;
-  height: 150px;
+  width: 240px;
+  height: 240px;
+  margin: 20px 20px;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
   flex-grow: 0;
   flex-shrink: 0;
-  margin: 20px 20px;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px;
+  }
 }
 </style>
 

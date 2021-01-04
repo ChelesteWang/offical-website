@@ -7,6 +7,7 @@
       <!-- <Info/> -->
     </div>
     <Logos />
+    <div class="w-full" style="height: 80px"></div>
     <Footer></Footer>
   </div>
 </template>
