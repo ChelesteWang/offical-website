@@ -5,7 +5,7 @@
         <div class="flex justify-between items-center">
           <div class="text-xl font-semibold text-gray-700">
             <!-- logo -->
-            <img src="../assets/images/logo.png" alt="" style="width:200px">
+            <img src="../assets/images/logo.png" alt="" style="width: 200px" />
           </div>
 
           <!-- Mobile menu button -->
@@ -32,7 +32,7 @@
             :key="item"
             href="#"
             class="block mx-4 mt-2 md:mt-0 text-sm text-gray-600 capitalize hover:text-blue-800 font-semibold"
-            >{{item}}</a
+            >{{ item }}</a
           >
           <!-- <a
             href="#"
@@ -57,11 +57,16 @@
 
 <script>
 export default {
-    name:'Header',
-    data(){
-      return{
-        list:["about us","portfolio","Contact us"]
-      }
-    }
+  name: "Header",
+  data() {
+    return {
+      list: ["about us", "portfolio", "Contact us"],
+    };
+  },
+  method() {
+    // handleClick: () => {
+    //   this.props.class =
+    // };
+  },
 };
 </script>

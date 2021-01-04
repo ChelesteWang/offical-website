@@ -9,30 +9,16 @@
         <br style="clear:both">
       </ul> -->
     </nav>
-    <p class="pt-6"><span class=""></span>推广勿扰 <span class=""></span>i@qaqrz.xyz</p>
+    <p class="pt-6" style="color: white">
+      <span class=""></span>推广勿扰 <span class=""></span>i@qaqrz.xyz
+    </p>
     <div style="width: 300px; margin: 0 auto; padding: 20px 0">
       <a
         target="_blank"
         href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802029190"
-        style="
-          display: inline-block;
-          text-decoration: none;
-          height: 20px;
-          line-height: 20px;
-        "
       >
         <img src="../assets/images/备案图标.png" style="float: left" />
-        <p
-          style="
-            float: left;
-            height: 20px;
-            line-height: 20px;
-            margin: 0px 0px 0px 5px;
-            color: white;
-          "
-        >
-          京公网安备 11010802029190号
-        </p></a
+        <p style="color: white">京公网安备 11010802029190号</p></a
       >
     </div>
     <p></p>
