@@ -4,9 +4,9 @@
     <Banner></Banner>
     <div class="w-full" style="height: 80px"></div>
     <div id="s1">
-      <Info></Info>
-      <div class="w-full" style="height: 80px"></div>
+      <Info/>
     </div>
+    <Logos />
     <Footer></Footer>
   </div>
 </template>
@@ -16,12 +16,14 @@ import Header from "../components/Header";
 import Banner from "../components/Banner";
 import Info from "../components/Info";
 import Footer from "../components/Footer";
+import Logos from "../components/Logos";
 export default {
   name: "Index",
   components: {
     Header,
     Banner,
     Info,
+    Logos,
   },
 };
 </script>
