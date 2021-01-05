@@ -11,14 +11,20 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  router: {
+    middleware: 'i18n'
+  },
+
+  plugins: [
+    '@/plugins/i18n.js',
+  ],
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [
-  ],
+
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,

@@ -23,7 +23,7 @@
           <h1
             class="text-white text-2xl font-semibold uppercase shadow-1xl md:text-3xl"
           >
-            We achieve what you imagine
+            {{$t("banner.title")}}
           </h1>
           <!-- <a href="#s1">
             <button

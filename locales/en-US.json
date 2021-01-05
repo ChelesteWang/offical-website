@@ -1,0 +1,68 @@
+{
+    "header": {
+        "list": [
+            "about us",
+            "portfolio",
+            "Contact us"
+        ],
+        "language":"English"
+    },
+    "banner": {
+        "title": "We achieve what you imagine"
+    },
+    "logos": {
+        "title": "Partner Company",
+        "list": [
+            {
+                "id": 1,
+                "title": "Top",
+                "url": "https://i.loli.net/2021/01/04/MUR9pgcFq4GQeT5.png"
+            },
+            {
+                "id": 2,
+                "title": "ebatte",
+                "url": "https://i.loli.net/2021/01/04/9FpSfAHmehkC3GB.png"
+            },
+            {
+                "id": 3,
+                "title": "Alibaba",
+                "url": "https://i.loli.net/2021/01/04/vXmP7fTxqCtHw9i.png"
+            },
+            {
+                "id": 4,
+                "title": "qingfan",
+                "url": "https://i.loli.net/2021/01/04/VlHFSbC8Dc9tOIU.png"
+            },
+            {
+                "id": 5,
+                "title": "aws",
+                "url": "https://i.loli.net/2021/01/04/WYsjql1u85yB6zd.png"
+            },
+            {
+                "id": 6,
+                "title": "Tencent",
+                "url": "https://i.loli.net/2021/01/04/UxqzDTa7uw39RQG.png"
+            },
+            {
+                "id": 7,
+                "title": "Future Bridge",
+                "url": "https://i.loli.net/2021/01/04/azYZVRSDpOoErCl.png"
+            },
+            {
+                "id": 8,
+                "title": "Stripe",
+                "url": "https://i.loli.net/2021/01/04/IF2gGDKTeOpq6m8.png"
+            },
+            {
+                "id": 9,
+                "title": "Tsinghua",
+                "url": "https://i.loli.net/2021/01/04/oLUp3Sd7WcmATOF.png"
+            },
+            {
+                "id": 10,
+                "title": "PayPal",
+                "url": "https://i.loli.net/2021/01/04/39GMrwlp1NesJEy.png"
+            }
+        ]
+    }
+}

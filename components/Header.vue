@@ -5,7 +5,11 @@
         <div class="flex justify-between items-center">
           <div class="text-xl font-semibold text-gray-700">
             <!-- logo -->
-            <img src="https://i.loli.net/2021/01/05/JrefLUzm2kqQb9x.png" alt="" style="width: 200px" />
+            <img
+              src="https://i.loli.net/2021/01/05/JrefLUzm2kqQb9x.png"
+              alt=""
+              style="width: 200px"
+            />
           </div>
 
           <!-- Mobile menu button -->
@@ -34,22 +38,13 @@
             class="block mx-4 mt-2 md:mt-0 text-sm text-gray-600 capitalize hover:text-blue-800 font-semibold"
             >{{ item }}</a
           >
-          <!-- <a
-            href="#"
-            class="block mx-4 mt-2 md:mt-0 text-sm text-gray-600 capitalize hover:text-blue-800 font-semibold"
-            >portfolio</a
-          >
           <a
             href="#"
             class="block mx-4 mt-2 md:mt-0 text-sm text-gray-600 capitalize hover:text-blue-800 font-semibold"
-            >Contact us</a
-          > -->
+            @click="changeLanguage"
+            >{{ $t("header.language") }}</a
+          >
         </div>
-        <!-- <a
-            href="#"
-            class="block mx-4 mt-2 md:mt-0 text-sm text-gray-600 capitalize hover:text-blue-800 font-semibold"
-            >English</a
-          > -->
       </div>
     </div>
   </nav>
@@ -60,13 +55,18 @@ export default {
   name: "Header",
   data() {
     return {
-      list: ["about us", "portfolio", "Contact us"],
+      list: this.$t("header.list"),
     };
   },
-  method() {
-    // handleClick: () => {
-    //   this.props.class =
-    // };
+  methods: {
+    changeLanguage: function () {
+      let locale = this.$i18n.locale;
+      console.log(locale);
+      locale === "zh" ? (this.$i18n.locale = "en") : (this.$i18n.locale = "zh");
+    },
+  },
+  updated: function () {
+    this.list = this.$t("header.list");
   },
 };
 </script>
