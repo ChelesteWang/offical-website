@@ -5,7 +5,7 @@
         <div class="flex justify-between items-center">
           <div class="text-xl font-semibold text-gray-700">
             <!-- logo -->
-            <img src="../assets/images/logo.png" alt="" style="width: 200px" />
+            <img src="https://i.loli.net/2021/01/05/JrefLUzm2kqQb9x.png" alt="" style="width: 200px" />
           </div>
 
           <!-- Mobile menu button -->
