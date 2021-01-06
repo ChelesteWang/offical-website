@@ -2,10 +2,9 @@
   <div>
     <Header></Header>
     <Banner></Banner>
+    <div class="w-full" style="height: 50px"></div>
+    <Info id="about-us" />
     <div class="w-full" style="height: 80px"></div>
-    <div id="s1">
-      <!-- <Info/> -->
-    </div>
     <Logos />
     <div class="w-full" style="height: 80px"></div>
     <Footer></Footer>

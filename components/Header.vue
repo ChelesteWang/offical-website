@@ -18,6 +18,7 @@
               type="button"
               class="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600"
               aria-label="toggle menu"
+              @click="openMenu"
             >
               <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
                 <path
@@ -30,7 +31,7 @@
         </div>
 
         <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-        <div class="hidden -mx-4 md:flex md:items-center">
+        <div class="-mx-4 md:flex md:items-center" :class="{hidden:isHidden==true} ">
           <a
             v-for="item in list"
             :key="item"
@@ -56,16 +57,20 @@ export default {
   data() {
     return {
       list: this.$t("header.list"),
+      isHidden: true,
     };
   },
   methods: {
     changeLanguage: function () {
       let locale = this.$i18n.locale;
-      console.log(locale);
       locale === "zh" ? (this.$i18n.locale = "en") : (this.$i18n.locale = "zh");
     },
+    openMenu: function () {
+      let isHidden = !this.isHidden
+      this.isHidden = isHidden;
+    },
   },
-  updated: function () {
+  beforeUpdate: function () {
     this.list = this.$t("header.list");
   },
 };

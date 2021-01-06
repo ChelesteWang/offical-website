@@ -23,24 +23,21 @@
         We own application which has 100,000 users
       </p>
     </div>
-    <div class="mobile-only md:hidden">
-      <h1 style="text-align: center;">Beyond software</h1>
-      <h2 style="text-align: center;">
-        <p>A team with more than</p>
-        <p style="color: #1162f9; float: left">10&nbsp</p>
-        <p>years of experience</p>
-        <br style="clear: both" />
+    <div class="mobile-only md:hidden" style="color: #718096;width:80%">
+      <h1 style="text-align: center;font-weight:400;font-size:20px;">Beyond software</h1>
+      <h2 style="text-align: center;margin-top:20px">
+        A team with more than 10 years of experience
       </h2>
-      <h3 style="text-align: center;">
+      <h3 style="text-align: center;margin-top:20px">
         Our Bible is : Comtinuous delivery , committed to customer success
       </h3>
-      <div style="transform: translateY(60px);text-align: center;">
+      <!-- <div style="transform: translateY(60px);text-align: center;">
         <p>We Design Software</p>
         <p>We planning Software</p>
         <p>We Develop Software</p>
         <p>We Operating Software</p>
-      </div>
-      <p style="text-align: center;transform: translateY(60px)">
+      </div> -->
+      <p style="text-align: center;margin-top:20px">
         We own application which has 100,000 users
       </p>
     </div>
