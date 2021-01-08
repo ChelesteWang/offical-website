@@ -35,9 +35,9 @@
           <a
             v-for="item in list"
             :key="item"
-            href="#"
+            :href="item.url"
             class="block mx-4 mt-2 md:mt-0 text-sm text-gray-600 capitalize hover:text-blue-800 font-semibold"
-            >{{ item }}</a
+            >{{ item.title }}</a
           >
           <a
             href="#"

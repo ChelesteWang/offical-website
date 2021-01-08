@@ -1,9 +1,22 @@
 {
     "header": {
         "list": [
-            "关于我们",
-            "作品集",
-            "联系我们"
+            {
+                "title": "关于我们",
+                "url": "#about-us"
+            },
+            {
+                "title": "作品集",
+                "url": ""
+            },
+            {
+                "title": "实习训练营",
+                "url": "/education"
+            },
+            {
+                "title": "联系我们",
+                "url": ""
+            }
         ],
         "language":"中文"
     },

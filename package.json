@@ -12,8 +12,11 @@
   "dependencies": {
     "@nuxt/typescript-runtime": "^2.0.0",
     "core-js": "^3.6.5",
+    "element-ui": "^2.14.1",
     "nuxt": "^2.14.6",
-    "vue-i18n": "^8.22.2"
+    "vue-i18n": "^8.22.2",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.6",

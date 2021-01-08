@@ -1,11 +1,24 @@
 {
     "header": {
         "list": [
-            "about us",
-            "portfolio",
-            "Contact us"
+            {
+                "title": "about us",
+                "url": "#about-us"
+            },
+            {
+                "title": "portfolio",
+                "url": ""
+            },
+            {
+                "title": "Intern camp",
+                "url": "/education"
+            },
+            {
+                "title": "Contact us",
+                "url": ""
+            }
         ],
-        "language":"English"
+        "language": "English"
     },
     "banner": {
         "title": "We achieve what you imagine"
@@ -21,7 +34,7 @@
             {
                 "id": 2,
                 "title": "ebatte",
-                "url": "https://i.loli.net/2021/01/04/9FpSfAHmehkC3GB.png"
+                "url": "https://i.loli.net/2021/01/08/nsGfQvpqtUWgZu3.png"
             },
             {
                 "id": 3,
