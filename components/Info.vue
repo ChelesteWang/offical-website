@@ -20,7 +20,7 @@
         <p>We Operating Software</p>
       </div>
       <p style="font-size: 20px; transform: translateY(60px)">
-        We own application which has 100,000 users
+        We own application which has 100,000+ users
       </p>
     </div>
     <div class="mobile-only md:hidden" style="color: #718096;width:80%">
@@ -38,12 +38,12 @@
         <p>We Operating Software</p>
       </div> -->
       <p style="text-align: center;margin-top:20px">
-        We own application which has 100,000 users
+        We own application which has 100,000+ users
       </p>
     </div>
     <div
       style="text-align: center;"
-      class="hidden -mx-4 md:flex"
+      class="hidden -mx-2 md:flex"
     >
       <iframe
         src="https://modao.cc/app/0d959208210c78c5545d0e41daaf4114be6a8542/embed"
@@ -51,8 +51,9 @@
         height="900"
         allowTransparency="true"
         frameborder="0"
-        style="transform: translateY(-150px) scale(0.65);"
+        style="transform: translateY(-150px) scale(0.60);"
       ></iframe>
+      <h1 class="info">Try to click</h1>
     </div>
   </div>
 </template>
@@ -63,5 +64,12 @@ export default {
 };
 </script>
 
-
+<style>
+  .info{
+    position: absolute;
+    top:1280px;
+    left: 880px;
+    font-size:24px;
+    font-weight:bold ;
+  }
 </style>
