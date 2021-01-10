@@ -17,12 +17,13 @@ export default {
 
   plugins: [
     '@/plugins/i18n.js',
-    {src: '~/plugins/ElementUI', ssr: true }
+    { src: '~/plugins/ElementUI', ssr: true }
   ],
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
-    'element-ui/lib/theme-chalk/index.css'
+    'element-ui/lib/theme-chalk/index.css',
+    '~/assets/css/font.css'
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
