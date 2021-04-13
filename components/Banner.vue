@@ -7,7 +7,7 @@
           background: url('https://i.loli.net/2020/12/29/3otLVcJzhxw2Ej6.png');
         "
       >
-        <div class="flex w-full">
+        <div class="flex w-full" @touchmove.prevent>
           <iframe
             width="100%"
             height="600px"
