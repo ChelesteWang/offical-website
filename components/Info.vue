@@ -38,14 +38,14 @@
             {{$t("about.products.ebatte")}}
           </figcaption>
         </slide>
-        <slide :index="4" class="empty">
-          <a href="https://mp.weixin.qq.com/s/6YkoPMqIaS206Ze0tuWIkQ" target="_blank">
-            <img src="../assets/images/product/human.png"/>
-          </a>
-          <figcaption>
-            {{$t("about.products.human")}}
-          </figcaption>
-        </slide>
+<!--        <slide :index="4" class="empty">-->
+<!--          <a href="https://mp.weixin.qq.com/s/6YkoPMqIaS206Ze0tuWIkQ" target="_blank">-->
+<!--            <img src="../assets/images/product/human.png"/>-->
+<!--          </a>-->
+<!--          <figcaption>-->
+<!--            {{$t("about.products.human")}}-->
+<!--          </figcaption>-->
+<!--        </slide>-->
       </carousel-3d>
       <br>
       <h2 style="font-size: 24px">
