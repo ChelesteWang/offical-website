@@ -6,8 +6,8 @@
                 "url": "#about-us"
             },
             {
-              "title": "Ai topic",
-              "url": "#portfolio"
+                "title": "Ai topic",
+                "url": "#portfolio"
             },
             {
                 "title": "Contact us",
@@ -20,38 +20,48 @@
         "title": "Focus on next-generation software and business models"
     },
     "about": {
-      "title": "About Us",
-      "content": "We are a team that transforms from software development to software operation",
-      "service": "The software we developed directly serves 100,000+ users",
-      "detail": "The following are part of the software we designed, developed and operated by ourselves, excluding development cases for customers",
-      "click": "Try to click",
-      "mvp": "We attach importance to the prototype design of the product, you can browse the case on the right",
-      "products": {
-        "au": "Au curriculum covers eight major schools in Australia, provides students with better curriculum experience services, and provides businesses with campus-based advertising cooperation. Advertisement monetization has been achieved.",
-        "pte": "ptepot is an AI-driven educational SAAS system for PTE exams. Currently, it has signed a strategic cooperation agreement with TopEnglish. Teachers can assign homework to students in the system, and currently supports more than 30 question types. We use AI technology to automate the judgment composition and listening performance.",
-        "safee": "Safee is a big data rental application for Australian international students, designed to allow new international students to rent reliable and cheap houses. Quickly start with a combination of group + applet punches.",
-        "human": "\"Human Performance Test\" is the software used when sharing as a guest of the Tsinghua Product Association, aiming to show students the development process and characteristics of the mini program.",
-        "ebatte": "Ebatte is an Internet + new energy company, aiming to digitally produce high-quality smart and environmentally friendly lithium battery products. With the support of the lithium battery supply chain based on the water-based production process, the batteries are recycled and reused through blockchain and other technologies."
-      }
+        "title": "About Us",
+        "content": "We are a team that transforms from software development to software operation",
+        "service": "The software we developed directly serves 100,000+ users",
+        "detail": "The following are part of the software we designed, developed and operated by ourselves, excluding development cases for customers",
+        "click": "Try to click",
+        "mvp": "We attach importance to the prototype design of the product, you can browse the case on the right",
+        "products": {
+            "au": "Au curriculum covers eight major schools in Australia, provides students with better curriculum experience services, and provides businesses with campus-based advertising cooperation. Advertisement monetization has been achieved.",
+            "pte": "ptepot is an AI-driven educational SAAS system for PTE exams. Currently, it has signed a strategic cooperation agreement with TopEnglish. Teachers can assign homework to students in the system, and currently supports more than 30 question types. We use AI technology to automate the judgment composition and listening performance.",
+            "safee": "Safee is a big data rental application for Australian international students, designed to allow new international students to rent reliable and cheap houses. Quickly start with a combination of group + applet punches.",
+            "human": "\"Human Performance Test\" is the software used when sharing as a guest of the Tsinghua Product Association, aiming to show students the development process and characteristics of the mini program.",
+            "ebatte": "Ebatte is an Internet + new energy company, aiming to digitally produce high-quality smart and environmentally friendly lithium battery products. With the support of the lithium battery supply chain based on the water-based production process, the batteries are recycled and reused through blockchain and other technologies."
+        }
     },
     "tech": {
-      "title": "Ai topic",
-      "risk": {
-        "title": "Indoor mobile risk model",
-        "content": "Using computational modeling and algorithms to help urban interior design and planning is a new development direction and demand in the design industry. In order to help make unintuitive and invisible algorithms intuitive and understandable, we have developed visualization tools for indoor crowds and indoor maps. We use the Guangzhou Airport as the base, apply particle swarm and neural network-based model simulations to it, predict the flow of people in various locations, and take rest, security, and boarding into account; and use this to assess the risk of crowd trampling. And the risk and loss of infection."
-      },
-      "city": {
-        "title": "",
-        "content": ""
-      },
-      "ocr": {
-        "title": "",
-        "content": ""
-      },
-      "cv": {
-        "title": "",
-        "content": ""
-      }
+        "title": "Ai topic",
+        "list": [
+            {
+                "label": "risk",
+                "url": "https://i.loli.net/2021/04/16/IdFzLxZOBh84DYJ.jpg",
+                "title": "Indoor mobile risk model",
+                "content": "Using computational modeling and algorithms to help urban interior design and planning is a new development direction and demand in the design industry. In order to help make unintuitive and invisible algorithms intuitive and understandable, we have developed visualization tools for indoor crowds and indoor maps. We use the Guangzhou Airport as the base, apply particle swarm and neural network-based model simulations to it, predict the flow of people in various locations, and take rest, security, and boarding into account; and use this to assess the risk of crowd trampling. And the risk and loss of infection."
+            },
+            {
+                "label": "city",
+                "url": "https://i.loli.net/2021/04/16/1jzfOMTm8S36gIQ.gif",
+                "title": "Big Data Model for Intelligent Transport",
+                "content": "To aid the science of urban transport planning, we have developed a customised urban simulator especially for municipalities. The simulator contains global map data as well as simulated vehicle data scenarios within Beijing. We have solved the problem of loading and transferring data in big data scenarios using slice reading/loading and remote procedure call loading, and have controlled the detailed information of each small point while processing the large amount of data, taking the individual vivid individuals and merging them into a meaningful ocean of data. "
+            },
+            {
+                "label": "ocr",
+                "url": "https://i.loli.net/2021/04/16/B67Wtp2MUX9hu15.png",
+                "title": "Industry order OCR recognition and business analysis",
+                "content": "There is a large amount of non-standard order data in the traditional industry procurement supply chain. Through the process of angle proofing, OCR positioning and confidence algorithm, automatic table formation, field matching and data cleansing, the business layer can obtain a fresh and standardised data structure and adapt the data level to the business according to the industry configuration rules (than high temperature lamination, electrophoresis and other processes)."
+            },
+            {
+                "label": "cv",
+                "url": "https://i.loli.net/2021/04/16/Q4y9WjHPvXJg2Zd.gif",
+                "title": "5G + Industrial Ai image detection",
+                "content": "Based on 16 megapixel industrial grade cameras for detection, analysis and artefact evaluation of production line defects without material. The architecture layer is put into production using a combination of 5G + edge computing. ai level uses new convolution to cope with irregularities in defects such as deformable convolution, uses FPN to improve detection of small targets and introduces Transform to enhance detection capabilities."
+            }
+        ]
     },
     "logos": {
         "title": "Partner Company",
