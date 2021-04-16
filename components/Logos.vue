@@ -1,5 +1,5 @@
 <template>
-  <div style="" class="md:-mt-64">
+  <div style="margin-top: 1rem" class="md:-mt-128">
     <h1 class="title">{{ $t("logos.title") }}</h1>
     <div class="flex justify-center">
       <div class="containner">

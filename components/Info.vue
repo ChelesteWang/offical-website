@@ -1,47 +1,109 @@
 <template>
   <div class="flex justify-center">
     <div class="pc-only hidden md:block">
-      <h1 style="font-size: 48px">Beyond software</h1>
-      <h2 style="font-size: 36px">
-        <p>A team with more than</p>
-        <p style="font-size: 40px; color: #1162f9; float: left">10&nbsp</p>
-        <p>years of experience</p>
-        <br style="clear: both" />
+      <h1 style="font-size: 48px">{{$t("about.title")}}</h1>
+      <br>
+      <h2 style="font-size: 24px">
+        <p>{{$t("about.content")}}</p>
+        <p>{{$t("about.service")}}</p>
+        <p>{{$t("about.detail")}}</p>
       </h2>
-      <h3 style="font-size: 20px">
-        Our Bible is :<br />
-        &nbsp &nbsp &nbsp &nbsp Comtinuous delivery , committed to customer
-        success
-      </h3>
-      <div style="font-size: 28px; transform: translateY(60px)">
-        <p>We Design Software</p>
-        <p>We planning Software</p>
-        <p>We Develop Software</p>
-        <p>We Operating Software</p>
-      </div>
-      <p style="font-size: 20px; transform: translateY(60px)">
-        We own application which has 100,000+ users
-      </p>
+      <br>
+      <carousel-3d :controls-visible="true" :clickable="false" :autoplay="true">
+        <slide :index="0" class="empty">
+            <img src="../assets/images/product/au.jpeg"/>
+          <figcaption>
+            {{$t("about.products.au")}}
+          </figcaption>
+        </slide>
+        <slide :index="1" class="empty">
+          <a href="https://www.ptepot.com" target="_blank">
+            <img src="../assets/images/product/ptepot.png"/>
+          </a>
+          <figcaption>
+            {{$t("about.products.pte")}}
+          </figcaption>
+        </slide>
+        <slide :index="2" class="empty">
+          <img src="../assets/images/product/Safee.png"/>
+          <figcaption>
+            {{$t("about.products.safee")}}
+          </figcaption>
+        </slide>
+        <slide :index="3" class="empty">
+          <a href="https://www.ebatte.com" target="_blank">
+            <img src="../assets/images/product/ebatte.png"/>
+          </a>
+          <figcaption>
+            {{$t("about.products.ebatte")}}
+          </figcaption>
+        </slide>
+        <slide :index="4" class="empty">
+          <a href="https://mp.weixin.qq.com/s/6YkoPMqIaS206Ze0tuWIkQ" target="_blank">
+            <img src="../assets/images/product/human.png"/>
+          </a>
+          <figcaption>
+            {{$t("about.products.human")}}
+          </figcaption>
+        </slide>
+      </carousel-3d>
+      <br>
+      <h2 style="font-size: 24px">
+        <p>{{$t("about.mvp")}}</p>
+      </h2>
     </div>
     <div class="mobile-only md:hidden" style="color: #718096; width: 80%">
       <h1 style="text-align: center; font-weight: 400; font-size: 20px">
-        Beyond software
+        {{$t("about.title")}}
       </h1>
       <h2 style="text-align: center; margin-top: 20px">
-        A team with more than 10 years of experience
+        {{$t("about.content")}}
       </h2>
-      <h3 style="text-align: center; margin-top: 20px">
-        Our Bible is : Comtinuous delivery , committed to customer success
-      </h3>
-      <!-- <div style="transform: translateY(60px);text-align: center;">
-        <p>We Design Software</p>
-        <p>We planning Software</p>
-        <p>We Develop Software</p>
-        <p>We Operating Software</p>
-      </div> -->
       <p style="text-align: center; margin-top: 20px">
-        We own application which has 100,000+ users
+        {{$t("about.service")}}
       </p>
+      <p style="text-align: center; margin-top: 20px">
+        {{$t("about.detail")}}
+      </p>
+      <carousel-3d :controls-visible="true" :clickable="false" :autoplay="true">
+        <slide :index="0" class="empty">
+          <img src="../assets/images/product/au.jpeg"/>
+          <figcaption>
+            {{$t("about.products.au")}}
+          </figcaption>
+        </slide>
+        <slide :index="1" class="empty">
+          <a href="https://www.ptepot.com" target="_blank">
+            <img src="../assets/images/product/ptepot.png"/>
+          </a>
+          <figcaption>
+            {{$t("about.products.pte")}}
+          </figcaption>
+        </slide>
+        <slide :index="2" class="empty">
+          <img src="../assets/images/product/Safee.png"/>
+          <figcaption>
+            {{$t("about.products.safee")}}
+          </figcaption>
+        </slide>
+        <slide :index="3" class="empty">
+          <a href="https://www.ebatte.com" target="_blank">
+            <img src="../assets/images/product/ebatte.png"/>
+          </a>
+          <figcaption>
+            {{$t("about.products.ebatte")}}
+          </figcaption>
+        </slide>
+        <slide :index="4" class="empty">
+          <a href="https://mp.weixin.qq.com/s/6YkoPMqIaS206Ze0tuWIkQ" target="_blank">
+            <img src="../assets/images/product/human.png"/>
+          </a>
+          <figcaption>
+            {{$t("about.products.human")}}
+          </figcaption>
+        </slide>
+      </carousel-3d>
+
     </div>
     <div style="text-align: center;position: relative;left:100px" class="hidden -mx-2 md:flex">
       <iframe
@@ -72,7 +134,7 @@
             ></path>
           </svg>
         </div>
-        Try to click
+        {{$t("about.click")}}
       </h1>
     </div>
   </div>
@@ -91,5 +153,24 @@ export default {
   top: 550px;
   font-size: 24px;
   font-weight: bold;
+}
+
+.empty {
+  border: none;
+  background: none;
+}
+
+
+.carousel-3d-container figcaption {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  bottom: 0;
+  position: absolute;
+  bottom: 0;
+  padding: 15px;
+  font-size: 15px;
+  min-width: 100%;
+  box-sizing: border-box;
 }
 </style>

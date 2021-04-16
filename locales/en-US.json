@@ -6,22 +6,52 @@
                 "url": "#about-us"
             },
             {
-                "title": "portfolio",
-                "url": ""
-            },
-            {
-                "title": "Intern camp",
-                "url": ""
+              "title": "Ai topic",
+              "url": "#portfolio"
             },
             {
                 "title": "Contact us",
-                "url": ""
+                "url": "https://shimo.im/forms/3Gq6GjWDcW9jGYvr/fill?channel=web"
             }
         ],
         "language": "English"
     },
     "banner": {
-        "title": "We achieve what you imagine"
+        "title": "Focus on next-generation software and business models"
+    },
+    "about": {
+      "title": "About Us",
+      "content": "We are a team that transforms from software development to software operation",
+      "service": "The software we developed directly serves 100,000+ users",
+      "detail": "The following are part of the software we designed, developed and operated by ourselves, excluding development cases for customers",
+      "click": "Try to click",
+      "mvp": "We attach importance to the prototype design of the product, you can browse the case on the right",
+      "products": {
+        "au": "Au curriculum covers eight major schools in Australia, provides students with better curriculum experience services, and provides businesses with campus-based advertising cooperation. Advertisement monetization has been achieved.",
+        "pte": "ptepot is an AI-driven educational SAAS system for PTE exams. Currently, it has signed a strategic cooperation agreement with TopEnglish. Teachers can assign homework to students in the system, and currently supports more than 30 question types. We use AI technology to automate the judgment composition and listening performance.",
+        "safee": "Safee is a big data rental application for Australian international students, designed to allow new international students to rent reliable and cheap houses. Quickly start with a combination of group + applet punches.",
+        "human": "\"Human Performance Test\" is the software used when sharing as a guest of the Tsinghua Product Association, aiming to show students the development process and characteristics of the mini program.",
+        "ebatte": "Ebatte is an Internet + new energy company, aiming to digitally produce high-quality smart and environmentally friendly lithium battery products. With the support of the lithium battery supply chain based on the water-based production process, the batteries are recycled and reused through blockchain and other technologies."
+      }
+    },
+    "tech": {
+      "title": "Ai topic",
+      "risk": {
+        "title": "Indoor mobile risk model",
+        "content": "Using computational modeling and algorithms to help urban interior design and planning is a new development direction and demand in the design industry. In order to help make unintuitive and invisible algorithms intuitive and understandable, we have developed visualization tools for indoor crowds and indoor maps. We use the Guangzhou Airport as the base, apply particle swarm and neural network-based model simulations to it, predict the flow of people in various locations, and take rest, security, and boarding into account; and use this to assess the risk of crowd trampling. And the risk and loss of infection."
+      },
+      "city": {
+        "title": "",
+        "content": ""
+      },
+      "ocr": {
+        "title": "",
+        "content": ""
+      },
+      "cv": {
+        "title": "",
+        "content": ""
+      }
     },
     "logos": {
         "title": "Partner Company",

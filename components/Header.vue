@@ -1,6 +1,6 @@
 <template>
   <nav class="bg-white shadow">
-    <div class="container mx-auto px-6 py-3">
+    <div class="container mx-auto py-3">
       <div class="md:flex md:items-center md:justify-between">
         <div class="flex justify-between items-center">
           <div class="text-xl font-semibold text-gray-700">
@@ -60,10 +60,24 @@ export default {
       isHidden: true,
     };
   },
+  mounted() {
+    this.loadLanguage()
+  },
   methods: {
     changeLanguage: function () {
       let locale = this.$i18n.locale;
       locale === "zh" ? (this.$i18n.locale = "en") : (this.$i18n.locale = "zh");
+      locale === "zh" ? (localStorage.setItem("language", "en")) : (localStorage.setItem("language", "zh"));
+
+    },
+    loadLanguage: function () {
+      let language = localStorage.getItem("language");
+      if(language == null)
+      {
+        localStorage.setItem("language", "zh");
+        language = "zh";
+      }
+      this.$i18n.locale = language;
     },
     openMenu: function () {
       let isHidden = !this.isHidden
