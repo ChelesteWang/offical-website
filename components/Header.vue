@@ -65,19 +65,20 @@ export default {
   },
   methods: {
     changeLanguage: function () {
-      let locale = this.$i18n.locale;
-      locale === "zh" ? (this.$i18n.locale = "en") : (this.$i18n.locale = "zh");
-      locale === "zh" ? (localStorage.setItem("language", "en")) : (localStorage.setItem("language", "zh"));
-
+      this.$emit('update')
+      // let locale = this.$i18n.locale;
+      // locale === "zh" ? (this.$i18n.locale = "en") : (this.$i18n.locale = "zh");
+      // locale === "zh" ? (localStorage.setItem("language", "en")) : (localStorage.setItem("language", "zh"));
     },
     loadLanguage: function () {
-      let language = localStorage.getItem("language");
-      if(language == null)
-      {
-        localStorage.setItem("language", "zh");
-        language = "zh";
-      }
-      this.$i18n.locale = language;
+      this.$emit('load')
+      // let language = localStorage.getItem("language");
+      // if(language == null)
+      // {
+      //   localStorage.setItem("language", "zh");
+      //   language = "zh";
+      // }
+      // this.$i18n.locale = language;
     },
     openMenu: function () {
       let isHidden = !this.isHidden
