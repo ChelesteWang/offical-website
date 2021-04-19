@@ -18,7 +18,7 @@ export default {
   plugins: [
     '@/plugins/i18n.js',
     { src: '~/plugins/ElementUI', ssr: true },
-    { src: '~/plugins/Carousel3d', ssr: false }
+    { src: '~/plugins/Carousel3d', ssr: true }
   ],
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
