@@ -135,7 +135,7 @@
       </no-ssr>
     </div>
     <div
-      style="text-align: center; position: relative; left: 100px"
+      style="width:540px;position:relative;left:100px;"
       class="hidden -mx-2 md:flex"
     >
       <iframe
@@ -166,7 +166,7 @@
             ></path>
           </svg>
         </div>
-        {{ $t("about.click") }}
+        <p style="text-align: center; width:100px">{{ $t("about.click") }}</p>
       </h1>
     </div>
   </div>
@@ -181,7 +181,7 @@ export default {
 <style>
 .info {
   position: relative;
-  left: -328px;
+  left: -278px;
   top: 550px;
   font-size: 24px;
   font-weight: bold;
